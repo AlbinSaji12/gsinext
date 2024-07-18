@@ -1,0 +1,85 @@
+/* src/components/LoginPage.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.login-form {
+  background-color: #b60adc;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+  color: rgb(250, 249, 249);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.forgot-password a {
+  color: white;
+  text-decoration: none;
+}
+
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.google-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 0.5rem;
+}
+
+.sign-in-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: white;
+  color: #6a0dad;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signup-link a {
+  color: white;
+  text-decoration: none;
+}
